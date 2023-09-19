@@ -1,0 +1,50 @@
+<ion-content [fullscreen]="true">
+  <div class="main">
+    <div class="thirdDiv">
+      <div class="img">
+        <img src="/assets/image/report_img.svg" alt="">
+      </div>
+      <div class="text">
+          <ion-label> Farmer Name:&nbsp;<span>Khush</span></ion-label>
+          <ion-label> Plant:&nbsp;<span>Aloe</span></ion-label>
+          <ion-label> Disease:&nbsp;<span>Fungal Infection</span></ion-label>
+          <ion-label> Result:&nbsp;<span>Positive</span></ion-label>
+          <ion-label> Date:&nbsp;<span>Sep 8th,23</span></ion-label>
+          <ion-label> Time:&nbsp;<span>14:05 hrs</span></ion-label>
+          <ion-label> Location:&nbsp;<span>Lucknow</span></ion-label>
+          <ion-label> Weather:&nbsp;<span>Rainy</span></ion-label>
+      </div>
+    </div>
+    <div class="loginBtn">
+      <ion-button>Download Detailed Report <img src="/assets/image/download_img.svg" alt=""></ion-button>
+    </div>
+    <div class="choose">
+      <div>
+        <label class="custom_check">
+          <input type="checkbox" name="gender_type" >
+          <span>Approved</span>
+        </label>
+      </div>
+      <div>
+        <label class="custom_check">
+          <input type="checkbox" name="gender_type">
+         <span>Not Approved</span>
+        </label>
+      </div>
+      <div>
+        <label class="custom_check">
+          <input type="checkbox" name="gender_type">
+         <span>Put to wait for futher Investigation</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="chatMain" routerLink="/tabs/chat">
+      <div class="chatBtn">
+        <ion-label>Chat</ion-label>
+        <img src="/assets/image/chat_img.svg" alt="">
+      </div>
+    </div>
+    
+  </div>
+</ion-content>

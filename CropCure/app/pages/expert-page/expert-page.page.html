@@ -1,0 +1,70 @@
+<ion-content [fullscreen]="true">
+
+    <div class="main">
+        <div class="profileDiv">
+            <img src="/assets/image/profile_img.png" alt="">
+            <div class="details">
+                <ion-label class="name">Dr.Kapil Mohan Sharma</ion-label>
+                <ion-label class="id">@kapildoctor</ion-label>
+                <ul>
+                    <li><ion-label>PhD in Medicinal Plants program</ion-label></li>
+                    <li><ion-label>AIIMS Delhi</ion-label></li>
+                    <li><ion-label>Rated - CropCure Expert</ion-label></li>
+                </ul>
+            </div>
+        </div>
+        <div class="img">
+            <img src="/assets/image/expert_1.svg" alt="">
+        </div>
+        <div class="segmentDiv">
+            <ion-segment value="default" mode="ios">
+              <ion-segment-button value="default">
+                <ion-label>New (200 +)</ion-label>
+              </ion-segment-button>
+              <ion-segment-button value="segment">
+                <ion-label>Solved (26)</ion-label>
+              </ion-segment-button>
+            </ion-segment>
+          </div>
+
+          <div class="lastMain" *ngFor="let item of [0,1,2]">
+            <div class="lastDiv">
+                <div class="cardDiv">
+                    <ion-label>Plant:&nbsp;<span>Aloe</span></ion-label>
+                    <ion-label>Disease:&nbsp;<span>Fungus</span></ion-label>
+                </div>
+                <div class="loginBtn" routerLink="/tabs/view">
+                    <ion-button>View</ion-button>
+                  </div>
+              </div>
+              <div class="lastDiv">
+                <div class="cardDiv">
+                    <ion-label>Plant:&nbsp;<span>Rose</span></ion-label>
+                    <ion-label>Disease:&nbsp;<span>Black Spot  </span></ion-label>
+                </div>
+                <div class="loginBtn" routerLink="/tabs/view">
+                    <ion-button>View</ion-button>
+                  </div>
+              </div>
+              <div class="lastDiv">
+                <div class="cardDiv">
+                    <ion-label>Plant:&nbsp;<span>Grapes</span></ion-label>
+                    <ion-label>Disease:&nbsp;<span>Anthracnose</span></ion-label>
+                </div>
+                <div class="loginBtn" routerLink="/tabs/view">
+                    <ion-button>View</ion-button>
+                  </div>
+              </div>
+              <div class="lastDiv">
+                <div class="cardDiv">
+                    <ion-label>Plant:&nbsp;<span>Cherry</span></ion-label>
+                    <ion-label>Disease:&nbsp;<span>Black Knot </span></ion-label>
+                </div>
+                <div class="loginBtn" routerLink="/tabs/view">
+                    <ion-button>View</ion-button>
+                  </div>
+              </div>
+          </div>
+          
+    </div>
+</ion-content>

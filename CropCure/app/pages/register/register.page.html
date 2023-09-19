@@ -1,0 +1,59 @@
+<ion-content [fullscreen]="true">
+  <form class="login">
+    <div class="upperDiv">
+      <img src="/assets/image/teenyicons_plant-solid.svg" alt="">
+      <div class="text">
+        <ion-label>Welcome to</ion-label>
+        <ion-label class="heading">CropCure !</ion-label>
+      </div>
+    </div>
+    <div class="text2">
+      <p>Create an account and get started</p>
+    </div>
+    <input type="text" placeholder="Enter your Email" />
+    <input type="password" placeholder="Password" />
+    <input type="password" placeholder="Confirm Password" />
+    <div class="choose">
+      <div>
+        <label class="custom_check">
+          <input type="checkbox" name="gender_type" >
+          <span>Doctor/Expert</span>
+        </label>
+      </div>
+      <div>
+        <label class="custom_check">
+          <input type="checkbox" name="gender_type">
+         <span>Farmer</span>
+        </label>
+      </div>
+    </div>
+    <div class="loginBtn" routerLink="/tabs/expert-page">
+      <ion-button>Register <img src="/assets/image/login_btn.svg" alt=""></ion-button>
+    </div>
+    <div class="login1" routerLink="/login">
+      <a>Login</a>
+    </div>
+  </form>
+  
+  <div class="hrLine">
+    <hr>
+    <ion-label>or Register with</ion-label>
+    <hr>
+  </div>
+  <div class="login">
+    <div class="socialDiv">
+      <div class="subBox">
+        <img src="/assets/image/facebook.svg" alt="">
+        <ion-label>Facebook</ion-label>
+      </div>
+      <div class="subBox">
+        <img src="/assets/image/Google.svg" alt="">
+        <ion-label>Google</ion-label>
+      </div>
+      <div class="subBox">
+        <img src="/assets/image/apple.svg" alt="">
+        <ion-label>Apple</ion-label>
+      </div>
+    </div>
+  </div>
+</ion-content>

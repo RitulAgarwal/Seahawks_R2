@@ -1,0 +1,114 @@
+ion-content {
+    --background: rgba(240, 249, 242, 1);
+
+    .main {
+        padding: 80px 15px 15px 15px;
+
+        .thirdDiv {
+            border-radius: 16px;
+            background: rgba(190, 222, 149, 0.91);
+
+            .img {
+                display: flex;
+                justify-content: center;
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                padding: 10px 21px 25px 21px;
+
+                ion-label {
+                    color: #484848;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom: 13px;
+
+                    span {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .loginBtn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding: 0px 15px;
+            ion-button {
+                width: 100%;
+                text-transform: none;
+                --border-radius: 67px;
+                --border: 1px solid #26DC08;
+                --background: rgba(114, 199, 5, 0.62);
+                --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                color: rgba(1, 11, 19, 0.66);
+                font-family: Inter;
+                font-size: 19px;
+                font-weight: 600;
+                line-height: normal;
+                backdrop-filter: blur(2px);
+
+                img {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .choose {
+            padding: 15px 0px 5px 15px;
+            border-radius: 16px;
+            background: #FFFFFFB2;
+            border: 1px solid #FFFFFFB2;
+            box-shadow: 0px 32px 32px -24px #0000001A;
+            margin: 45px 20px 0px 20px;
+
+            div {
+                display: flex;
+                margin-bottom: 10px;
+
+                .custom_check {
+                    display: flex;
+                    color: var(--gray-700, #616161);
+                    font-variant-numeric: lining-nums tabular-nums;
+                    font-family: Jost;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+
+                    input {
+                        margin: 0px !important;
+                    }
+
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+        }
+        .chatMain{
+            display: flex;
+            justify-content: end;
+            margin-top: 38px;
+            .chatBtn {
+                border-radius: 67px;
+                background: #BEDE95;
+                padding: 2px 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                img {
+                    margin-left: 5px;
+                }
+            }
+        }
+        
+    }
+}
