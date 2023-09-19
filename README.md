@@ -6,14 +6,14 @@ SIH 2023 App-Based Solution to identify and solve disease in plants/crops
 1. Video presentation of the prototype of the problem
    https://drive.google.com/file/d/18gCy6Uwshw63sPpxpJPirK3-jUNc-II6/view?usp=sharing
    
-3. Link to our presentation on our SIH topic (PDF & PPT)
+2. Link to our presentation on our SIH topic (PDF & PPT)
    https://drive.google.com/file/d/1vkRhX8dGmMsaCZFBCLJaD2wwbtOQCNad/view?usp=sharing
    https://docs.google.com/presentation/d/1KjM70nr9zktiqgb1ZyRgBXqgvSOnODwz/edit?usp=sharing&ouid=109071075433668968315&rtpof=true&sd=true
    
-4. Link to our APP APK folder
+3. Link to our APP APK folder
    https://drive.google.com/drive/folders/15UFWmAxzkrdyQzrqy9P0dEROH-V6r4cS?usp=sharing
    
-5. Team Members:- 
+4. Team Members:- 
    Ritul Agarwal (2021UCD2127) (Team Leader), 
    Bhumika Bhatt (2021UCD2167), 
    Ayush Chauhan (2021UCS2103), 
