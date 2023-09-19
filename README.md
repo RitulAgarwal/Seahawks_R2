@@ -4,6 +4,7 @@ SIH 2023 App-Based Solution to identify and solve disease in plants/crops
 
 
 1. Video presentation of the prototype of the problem
+   https://drive.google.com/file/d/1fQ3hKOQAkZIdc8m48F7KVc_iLpB6LXAX/view?usp=sharing 
 
 2. Link to our presentation on our SIH topic (PDF & PPT)
    https://drive.google.com/file/d/1vkRhX8dGmMsaCZFBCLJaD2wwbtOQCNad/view?usp=sharing
