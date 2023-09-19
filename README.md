@@ -19,4 +19,4 @@ SIH 2023 App-Based Solution to identify and solve disease in plants/crops
    Ayush Chauhan (2021UCS2103), 
    Khush Ahuja (2021UCD2130), 
    Ayush Verma (2021UCD2134), 
-   Tanuj Chandela (2021UCD2124)
+   and Tanuj Chandela (2021UCD2124)
