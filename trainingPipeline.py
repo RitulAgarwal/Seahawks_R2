@@ -13,7 +13,7 @@ import torch.nn.functional as F
 from torch.optim import lr_scheduler
 from torch.distributions import normal
 from torch.utils.data import DataLoader
-# from Architectures.LDMmodels import q_sample,sample
+from Architectures.models import q_sample,sample
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
